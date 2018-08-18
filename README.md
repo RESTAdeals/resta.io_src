@@ -34,9 +34,14 @@ and opening http://localhost:3000 in your browser.
 
 6. now execute this by changing the **'../folder'** below. ***(warning this command will delete everything in that folder, 
 so be sure not to set it like '/home')***
+
 ```
 meteor-build-client ../folder --path
 ```
 *--path* makes all the paths relative so that you can open it via file:// protocol before hosting it somewhere else.
 
 7. now you can find your index.html and other files in the folder you set in step #6
+
+8. Now, clone [Restaio repo](https://github.com/restaio/restaio.github.io) and delete everything except for *.git* folder and copy the compiled files from folder in step #6 here. Commit changes and push to master.
+
+You are now ready to go!
